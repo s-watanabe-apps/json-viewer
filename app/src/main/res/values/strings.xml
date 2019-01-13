@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">JSON Viewer</string>
+
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+
+    <string name="search_json_file">Searching for JSON files...</string>
+
+    <string name="permission_read_external_storage_title">About access authority to the store</string>
+    <string name="permission_read_external_storage_body">This application will search JSON files from storage.\nTherefore, you need access to storage.</string>
+
+    <string name="permission_write_external_storage_title">About writing permission to storage</string>
+    <string name="permission_write_external_storage_body">To use the editing function you need write permission to the storage.</string>
+
+    <string name="sort_title">Sorting</string>
+    <string-array name="sort_names">
+        <item>By directory</item>
+        <item>In descending order of size</item>
+        <item>Sort by update date first</item>
+    </string-array>
+
+    <string name="setting_background_title">Background</string>
+    <string name="setting_background_white">White</string>
+    <string name="setting_background_black">Black</string>
+
+    <string name="setting_storage_title">Where to search</string>
+    <string name="setting_storage_internal">Internal storage</string>
+    <string name="setting_storage_external">External storage</string>
+
+    <string name="json_file_parsing">JSON file parsing ...</string>
+    <string name="json_save_message">JSON file saved.</string>
+    <string name="json_file_parse_error_edited">Parse error can not be edited!</string>
+
+    <string name="list_color_white_background">#FFFFFF</string>
+    <string name="list_color_white_filename">#303F9F</string>
+    <string name="list_color_white_normal_text">#777777</string>
+    <string name="list_color_white_sort_text">#FF4081</string>
+
+    <string name="list_color_black_background">#111111</string>
+    <string name="list_color_black_filename">#6F84B8</string>
+    <string name="list_color_black_normal_text">#777777</string>
+    <string name="list_color_black_sort_text">#FF4081</string>
+
+    <string name="json_color_white_background">#FFFFFF</string>
+    <string name="json_color_white_edit_text">#000000</string>
+    <string name="json_color_white_element_string">#610B0B</string>
+    <string name="json_color_white_element_decimal">#0B6121</string>
+    <string name="json_color_white_element_bool">#303F9F</string>
+    <string name="json_color_white_normal_text">#777777</string>
+
+    <string name="json_color_black_background">#111111</string>
+    <string name="json_color_black_edit_text">#FFFFFF</string>
+    <string name="json_color_black_element_string">#B65F5F</string>
+    <string name="json_color_black_element_decimal">#5FB676</string>
+    <string name="json_color_black_element_bool">#636FCF</string>
+    <string name="json_color_black_normal_text">#777777</string>
+
+    <string name="interstitial_ad_unit_id">ca-app-pub-3940256099942544/1033173712</string>
+</resources>

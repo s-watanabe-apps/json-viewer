@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingActivity">
+
+    <TextView
+        android:text="@string/setting_background_title"
+        android:layout_margin="12dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupBackground">
+        <RadioButton android:text="@string/setting_background_white"
+            android:layout_weight="1"
+            android:layout_marginLeft="35dp"
+            android:gravity="center_vertical"
+            android:id="@+id/radioBackgroundWhite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RadioButton>
+        <RadioButton android:text="@string/setting_background_black"
+            android:layout_weight="1"
+            android:layout_marginLeft="35dp"
+            android:gravity="center_vertical"
+            android:id="@+id/radioBackgroundBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RadioButton>
+    </RadioGroup>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageBackgroundWhite"
+                android:background="@drawable/background_white"
+                android:layout_width="120dp"
+                android:layout_height="120dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imageBackgroundBlack"
+                android:background="@drawable/background_black"
+                android:layout_width="120dp"
+                android:layout_height="120dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:text="@string/setting_storage_title"
+        android:layout_marginTop="24dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="12dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RadioGroup
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupStorage">
+        <RadioButton android:text="@string/setting_storage_internal"
+            android:layout_weight="1"
+            android:layout_marginLeft="35dp"
+            android:gravity="center_vertical"
+            android:id="@+id/radioInternalStorage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RadioButton>
+        <RadioButton android:text="@string/setting_storage_external"
+            android:layout_weight="1"
+            android:layout_marginLeft="35dp"
+            android:gravity="center_vertical"
+            android:id="@+id/radioExternalStorage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </RadioButton>
+    </RadioGroup>
+
+</LinearLayout>

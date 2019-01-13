@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyActivity">
+    <item
+        android:id="@+id/json_menu_plus"
+        android:orderInCategory="1"
+        android:icon="@drawable/plus"
+        app:showAsAction="always"
+        android:title="Sort" />
+    <item
+        android:id="@+id/json_menu_minus"
+        android:orderInCategory="2"
+        android:icon="@drawable/minus"
+        app:showAsAction="always"
+        android:title="Setting" />
+    <item
+        android:id="@+id/json_menu_edit"
+        android:orderInCategory="3"
+        android:icon="@android:drawable/ic_menu_edit"
+        app:showAsAction="always"
+        android:title="Setting" />
+</menu>
